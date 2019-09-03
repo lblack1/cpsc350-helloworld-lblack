@@ -11,8 +11,12 @@ Header file for a c++ hello world app.
 using namespace std;
 
 class HelloWorld {
+
   public:
+    //Constructor
     HelloWorld();
+    //Destructor
     ~HelloWorld();
-    static void Hello();
+    //Function that outputs "Heyo"
+    void Hello();
 };
